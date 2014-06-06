@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.6.0_41" class="java.beans.XMLDecoder"> 
+ <object class="Model"> 
+  <void property="authors"> 
+   <void method="add"> 
+    <object class="Author"> 
+     <void property="name"> 
+      <string>rowling </string> 
+     </void> 
+     <void property="nationality"> 
+      <string>british </string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="books"> 
+   <void method="add"> 
+    <object class="Book"> 
+     <void property="price"> 
+      <int>20</int> 
+     </void> 
+     <void property="title"> 
+      <string>harry potter </string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+ </object> 
+</java> 
